@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Addict</title>
+
+     <!-- FontAwesome -->
+     <script
+     src="https://kit.fontawesome.com/a8162db7fd.js"
+     crossorigin="anonymous"
+   ></script>
+
+   <!-- Animate -->
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+   <link rel="stylesheet" href="./css/index.css" />
 </head>
 <body>
     <!-- NAVBAR -->
@@ -25,16 +38,64 @@
 
             <!-- Search Bar -->
             <div id="search-bar" class="mx-auto">
-                <form action="" autocomplete="off">
+                <form action=""  autocomplete="off">
                     <input
                       type="search"
                       placeholder="Search "
                       id="search"
-                      autocomplete="off"
-                      
+                      autocomplete="off"  
                     />
+
+                    <button id="search-btn">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </button>
+                </form>
             </div>
+
+            <div id="show-favourites"><i class="fa-solid fa-bars"></i></div>
+
         </div>
     </nav>
+    
+    <div id="super-container" class="d-flex justify-content-between">
+     <!-- MAIN  SECTION-->
+     <main id="main-section">
+        <!-- Suggestions container-->
+        <div id="Suggestions-container" class="d-flex">
+          <p id="empty-search-text" class="text-muted fs-1 pt-5 ms-4">
+            Your search results will appear hear!
+          </p>
+
+          <div id="card-container">
+            <!-- <a href="movie.html" data-id = "spider-man" class="text-decoration">
+            <div class="card my-2" data-id = "spider-man">
+              <img
+                src=""
+                class="card-img-top"
+                alt="..."
+                data-id = "spider-man"
+              />
+              <div class="card-body text-start">
+                <h5 class="card-title" >
+                  <a href="movie.html" data-id = "spider-man"> spider-man </a>
+                </h5>
+
+                <p class="card-text">
+                  <i class="fa-solid fa-star">
+                    <span id="rating">&nbsp;7.8</span>
+                  </i>
+
+                  <button class="fav-btn">
+                    <i class="fa-solid fa-heart"></i>
+                  </button>
+                </p>
+              </div>
+            </div>
+          </a> -->
+          </div>
+        </div>
+      </main>
+
+
 </body>
 </html>
