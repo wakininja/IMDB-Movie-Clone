@@ -77,4 +77,99 @@
     display: none;
     font-size: 1.7rem;
   }
+
+  /* MAIN SECTION */
+
+#main-section {
+    min-height: 89vh;
+    width: 65%;
+  }
+  
+  h2 {
+    padding-left: 0.5rem;
+    margin: 2% 4%;
+    color: var(--logo-color);
+  }
+  
+  #Suggestions-container {
+    min-height: 100%;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  /* card  */
+  
+  a {
+    box-sizing: border-box;
+  }
+  
+  #card-container {
+    width: inherit;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+  }
+  
+  .card {
+    border: transparent;
+    background-color: var(--card-color);
+    width: 10rem;
+  }
+  
+  .card > img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .card-title {
+    font-size: medium;
+    font-weight: 500;
+  }
+  
+  .card-title a {
+    text-decoration: none;
+    color: var(--default-text-color);
+  }
+  
+  .card-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .card-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .fa-star {
+    color: var(--logo-color);
+  }
+  
+  .text-decoration {
+    text-decoration: none;
+  }
+  
+  #rating {
+    color: var(--default-text-color);
+    font-size: small;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+  }
+  
+  .fav-btn {
+    border: transparent;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  .fa-heart {
+    color: var(--default-heart-color);
+  }
+  
+  .fa-heart:hover {
+    color: var(--heart-red-color);
+  }
+  
   
