@@ -1,16 +1,16 @@
 /* CSS Variables */
 :root {
     --default-text-color: #fff;
-    --logo-color: rgb(253, 206, 35);
-    --page-background-color: #2c3333;
-    --form-color: rgb(109, 114, 121);
-    --search-icon-color: #3d3e43;
+    --logo-color: #7D80C7;
+    --page-background-color: #9EC7CB;
+    --form-color: #9EC7CB;
+    --search-icon-color: #D6EFC7;
     --card-color: rgb(18, 21, 21);
     --default-heart-color: rgb(207, 194, 194);
     --heart-red-color: #ec0638;
     --favourite-section-color: rgb(28, 27, 27);
     --fav-movie-card-color: rgb(12, 11, 11);
-    --delete-button-color: #eb6582;
+    --delete-button-color: #B51D46;
   }
   
   body {
@@ -63,7 +63,7 @@
   
   #search-btn {
     height: 2.9rem;
-    width: 4.5rem;
+    width: 5.4rem;
     border: transparent;
     background-color: var(--logo-color);
   }
@@ -86,7 +86,7 @@
   }
   
   h2 {
-    padding-left: 0.5rem;
+    padding-left: 40%;
     margin: 2% 4%;
     color: var(--logo-color);
   }
@@ -144,7 +144,7 @@
   }
   
   .fa-star {
-    color: var(--logo-color);
+    color: #ffc107;
   }
   
   .text-decoration {
@@ -177,7 +177,7 @@
 #favorites-section {
     width: 33%;
     height: 100vh;
-    background-color: var(--favourite-section-color);
+    background-color: #FBEEF5;
     z-index: 1;
     flex-direction: column;
   }
