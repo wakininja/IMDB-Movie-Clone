@@ -25,4 +25,23 @@
       emptyFavText.style.display = "none";
     }
   }
+
+  // Event listner on search
+  searchKeyword.addEventListener("keyup", function () {
+    let search = searchKeyword.value;
+    if (search === "") {
+      emptyText.style.display = "block";
+      suggestionsContainer.innerHTML = "";
+      // clears the previous movies from array
+      suggestionList = [];
+    } else {
+      emptyText.style.display = "none";
+      (async () => {
+        let data = await fetchMovies(search);
+        addToSuggestionContainerDOM(data);
+      })();
+
+      suggestionsContainer.style.display = "grid";
+    }
+  });
 })();
