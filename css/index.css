@@ -192,4 +192,116 @@
     width: 90%;
     height: 90%;
   }
+
+  /* Scrollbar customisation */
+
+#fav-movies-container::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  #fav-movies-container::-webkit-scrollbar-track {
+    border-radius: 20px;
+  }
+  
+  /* Handle */
+  #fav-movies-container::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+  }
+  
+  .fav-movie-card {
+    padding-right: 1rem;
+    width: 95%;
+    background-color: var(--fav-movie-card-color);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .fav-movie-poster {
+    width: 80px;
+    height: 100px;
+  }
+  
+  .fav-movie-name {
+    text-decoration: none;
+    color: var(--default-text-color);
+  }
+  
+  .fav-movie-name:hover {
+    color: var(--default-text-color);
+    text-decoration: underline;
+  }
+  
+  .movie-card-details {
+    width: 60%;
+  }
+  
+  .delete-btn {
+    cursor: pointer;
+  }
+  
+  .fa-trash-can {
+    color: var(--delete-button-color);
+    font-size: 1.3rem;
+  }
+  
+  .fa-trash-can:hover {
+    color: var(--heart-red-color);
+  }
+  
+  /* Responsiveness */
+  
+  @media screen and (max-width: 1200px) {
+    #card-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    #card-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    #favorites-section {
+      width: 40vw;
+      height: 100vh;
+    }
+  
+    #card-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .card {
+      width: 8rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .site-name {
+      display: none;
+    }
+  
+    #favorites-section {
+      display: none;
+      position: absolute;
+      right: 0;
+      width: 60vw;
+      height: 100vh;
+    }
+  
+    #show-favourites {
+      padding-right: 1rem;
+      display: block;
+    }
+  
+    #main-section {
+      min-height: 100vh;
+      width: 100vw;
+    }
+  
+    #card-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
   
