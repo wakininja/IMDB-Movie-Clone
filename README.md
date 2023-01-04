@@ -34,6 +34,7 @@ https://user-images.githubusercontent.com/86143301/210266117-db1fbeb9-481d-4a2b-
 
 **You May Also like the**
 * Music Player - https://wakininja.github.io/music_Player_project/
+* Alarm clock https://wakininja.github.io/AlarmClock-SkillTest-Project/
 
 
 
