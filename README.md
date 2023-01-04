@@ -1,8 +1,11 @@
 # IMDB-Movie-Clone
 
-https://user-images.githubusercontent.com/86143301/210266117-db1fbeb9-481d-4a2b-9d79-940802655abe.gif
+**Adding Gif File to Readme.md** 
 
-**Features**
+![IMDB Movie Clone (1)](https://user-images.githubusercontent.com/86143301/210487472-cbe37d56-55a1-4044-958c-edd138b00d1c.gif)
+
+
+***Features***
   * Home Page
     * Search any movie from the API and display the search results on the frontend (as I type the search results should update, just like Google does for suggestions).
     * Each search result of the movie should have a favourite button, clicking on which the movie should be added to “My favourite movies” (a list).
