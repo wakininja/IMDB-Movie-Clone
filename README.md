@@ -17,12 +17,13 @@ https://user-images.githubusercontent.com/86143301/210266117-db1fbeb9-481d-4a2b-
   * Remove from favourites button: Each movie should have remove from favourites button, clicking on which should remove that movie from the list.
   
 **How To Use**
-  * To Use this alarm click the link https://wakininja.github.io/AlarmClock-SkillTest-Project/ to see this alarm live & play with it simple :)
+  * To Use this IMDB Movie Clone web app the link https://wakininja.github.io/IMDB-Movie-Clone/ to see this IMDB live & Search Your Movie simple :)
   
   
 **Web Technologies Used**
 * HTML  
 * CSS  
+* Bootstrap
 * JavaScript
   
   
@@ -34,7 +35,7 @@ https://user-images.githubusercontent.com/86143301/210266117-db1fbeb9-481d-4a2b-
 
 **You May Also like the**
 * Music Player - https://wakininja.github.io/music_Player_project/
-* Alarm clock https://wakininja.github.io/AlarmClock-SkillTest-Project/
+* Alarm clock - https://wakininja.github.io/AlarmClock-SkillTest-Project/
 
 
 
