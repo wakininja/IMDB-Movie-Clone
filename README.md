@@ -1,5 +1,7 @@
 # IMDB-Movie-Clone
 
+**Hey Everyone! This IMDB movie clone is Made up of using OMDB API to inhance And utilize my skill and Knowledge of HTML, CSS, BOOtstrap And JavaScript & I loved to create this I made a lot of mistakes and correct them too. If you have some better idea then don't forget to suggest me.**
+
 **Adding Gif File to Readme.md** 
 
 ![IMDB Movie Clone (1)](https://user-images.githubusercontent.com/86143301/210487472-cbe37d56-55a1-4044-958c-edd138b00d1c.gif)
